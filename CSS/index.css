@@ -1,0 +1,47 @@
+html, body{
+    height: 100%;
+}
+    #cabecalio{
+        height: 20%;
+        width: 100%;
+        border-bottom: black solid;
+    }
+        #titulo{
+            text-align: center;
+                       
+        }
+
+    #corpo{
+        height: 80%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+        .opcoes{
+            width: 30%;
+            height: 80%;
+            border: black solid;
+            border-radius: 10px;
+            
+
+        }
+
+        .opcoes h2{
+            font-size: 200%;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .opcoes img{
+            border: black solid;
+            height: 55%;
+            width: 55%;
+            margin: 12% 22%;
+        }
+
+        .opcoes p{
+
+            font-size: 150%;
+            text-align: center;
+        }
