@@ -4,11 +4,31 @@ html, body{
     #cabecalio{
         height: 20%;
         width: 100%;
-        border-bottom: black solid;
+        
     }
+        #logo{
+
+            margin-top: 1%;
+            margin-left: 36%;
+
+        }
         #titulo{
-            text-align: center;
+            width: 30%;
+            display: inline-block;
+            font-size: 200%;
+            color: rgb(255, 141, 0);
+            font-weight: bolder;
+            position: relative;
+            top: -14%;
+            margin-left: 2%;
                        
+        }
+
+        #intro{
+            text-align: center;
+            margin-top: 1%;
+            margin-left: 3%;
+            margin-right: 3%;
         }
 
     #corpo{
@@ -19,29 +39,96 @@ html, body{
         align-items: center;
     }
         .opcoes{
-            width: 30%;
+            width: 25%;
             height: 80%;
             border: black solid;
-            border-radius: 10px;
+            border-radius: 10px;    
             
-
         }
+              
+            #facil{
+                border: rgb(255, 223, 125);
+                background-color: rgb(255, 223, 125);
+                margin-left: 3%;
+            }
 
-        .opcoes h2{
-            font-size: 200%;
-            text-align: center;
-            font-weight: bold;
-        }
+            #medio{
+                border: rgb(147, 226, 170);
+                background-color: rgb(147, 226, 170);
+            }
 
-        .opcoes img{
-            border: black solid;
-            height: 55%;
-            width: 55%;
-            margin: 12% 22%;
-        }
+            #dificil{
+                border: rgb(159, 189, 255);
+                background-color: rgb(159, 189, 255);
+                margin-right: 3%;
+            }
 
-        .opcoes p{
+             
+        .dificuldade{
 
             font-size: 150%;
             text-align: center;
+            position: relative;
+            top: 4%;
+            left: -40%;
         }
+
+        .chances{
+
+            position: relative;
+            font-size: 150%;
+            top: -15%;
+            left: 91%;
+
+        }
+
+            .centro-opcoes{
+
+                background-color: white;
+                width: 70%;
+                height: 50%;
+                position: relative;
+                left: 15%;
+                top: 11%;              
+                
+            }
+                .logo{
+                    width: 25%;
+                    height: 26%;
+                    position: relative;
+                    top: -16%;
+                    left: 38%;
+
+                }      
+
+                .opcoes h2{
+                    font-size: 200%;
+                    font-weight: bold;
+                    position: relative;
+                    top: -15%;
+                    left: 1%;
+                    text-align: center;
+                    color: rgb(80, 77, 77);
+                }
+
+            .area-texto{
+                background-color: white;
+                width: 98%;
+                position: relative;
+                top: 18%;
+                height: 31%;
+            }
+                #area-facil{
+                    border: solid rgb(255, 223, 125); 
+                    border-radius: 10px; 
+                }
+
+                #area-medio{
+                    border: solid rgb(147, 226, 170); 
+                    border-radius: 10px; 
+                }
+
+                #area-dificil{ 
+                    border: solid rgb(159, 189, 255); 
+                    border-radius: 10px; 
+                }
