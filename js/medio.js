@@ -12,6 +12,8 @@ medio.addEventListener("click", function(){
 
     alert("para que a sopa fique gostosa, vamos colocar tomates e logo apos a batata, então adicionaremos o frango e por fim deixaremos no fogo por 23 minutos para pegar o gosto ")
 
+    //criando variaveis
+
     var primeiroProduto = prompt("O que devemos pegar primeiro?");
 
     var primeiro = primeiroProduto.toLowerCase();
@@ -43,7 +45,7 @@ medio.addEventListener("click", function(){
             
             alert("entrada invalida");
             
-            segundoProduto = prompt("o que faremos com a carne?");
+            segundoProduto = prompt("qual o segundo ingrediente?");
 
             segundo = segundoProduto.toLowerCase();
         }
@@ -63,7 +65,9 @@ medio.addEventListener("click", function(){
             
             alert("entrada invalida");
             
-            terceiro = prompt("Quanto tempo na churrasqueira?");
+            terceiroProduto = prompt("que tipo de carne vamos usar?");
+
+            terceiro = terceiroProduto.toLowerCase();
         }
     }
 
@@ -81,6 +85,10 @@ medio.addEventListener("click", function(){
 
         }
 }
+
+
+    //verificação de erros
+
     var erros = [];
 
     console.log(erros.length);
@@ -109,6 +117,7 @@ medio.addEventListener("click", function(){
 
     }
 
+    // resultado final
 
     if(erros.length != 0){
         

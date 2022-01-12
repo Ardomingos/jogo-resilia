@@ -12,6 +12,8 @@ facil.addEventListener("click", function(){
 
     alert("para que o Hamburger fique bom, precisamos de tres etapas, primeira vamos pegar o Pão depois temperamos a carne e deixamos na churrasqueira por 15 minutos ")
 
+    //criando variaveis
+
     var primeiroProduto = prompt("O que devemos pegar primeiro?");
 
     var primeiro = primeiroProduto.toLowerCase();
@@ -66,6 +68,9 @@ facil.addEventListener("click", function(){
         }
     }
 
+
+    //verificação de erros
+
     var erros = [];
 
     console.log(erros.length);
@@ -87,6 +92,8 @@ facil.addEventListener("click", function(){
         
         erros.push("Não é esse tempo")
     }
+
+    // resultado final
 
     if(erros.length != 0){
         

@@ -4,6 +4,7 @@ var dificil = document.querySelector("#dificil");
 var string = "Parabens, você acertou tudo"
 
 
+
 //logica
 
 dificil.addEventListener("click", function(){
@@ -12,8 +13,10 @@ dificil.addEventListener("click", function(){
 
     alert("para que não erre a receita, vamos usar a quantidade de medida dos ingredites, ok? preste atenção a seguir");
 
-    alert("primeiro ingrediente é açucar de padeiro que iremosusar 20gramas, logo após devemos pegar uma lata de leite condensado e por fim 2 gemas de ovo.")
+    alert("primeiro ingrediente é açucar de padeiro que iremos usar 20gramas, logo após devemos pegar uma lata de leite condensado e por fim 2 gemas de ovo.")
 
+    
+    //criando variaveis
 
     var primeiroProduto = prompt("O que devemos pegar primeiro?");
 
@@ -121,6 +124,8 @@ dificil.addEventListener("click", function(){
         }        
     }
 
+    //verificação de erros
+
     var erros = [];
 
     console.log(erros.length);
@@ -161,6 +166,7 @@ dificil.addEventListener("click", function(){
 
     }
 
+    // resultado final
 
     if(erros.length != 0){
         
