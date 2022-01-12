@@ -93,7 +93,7 @@ medio.addEventListener("click", function(){
 
     console.log(erros.length);
 
-    if(primeiro != "tomate"){
+    if(primeiro != "tomate" && primeiro != "tomates"){
 
         erros.push("Primeiro passo incorreto");
     
