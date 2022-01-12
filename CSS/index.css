@@ -42,10 +42,27 @@ html, body{
             width: 25%;
             height: 80%;
             border: black solid;
-            border-radius: 10px;    
+            border-radius: 10px;   
+            opacity: 0.8;
             
         }
-              
+
+            .jogar{
+                padding: 1% 2%;
+                position: relative;
+                top: -13%;
+                left: -16%;
+                font-size: 30px;
+                background-color: rgb(255, 141, 0);
+                color: white;
+                opacity: 0;                
+            }
+                
+            .opcoes:hover{
+                opacity: 1;
+                border: solid rgb(255, 141, 0);
+            }
+           
             #facil{
                 border: rgb(255, 223, 125);
                 background-color: rgb(255, 223, 125);
@@ -96,16 +113,24 @@ html, body{
                     width: 25%;
                     height: 26%;
                     position: relative;
-                    top: -16%;
+                    top: -27%;
                     left: 38%;
 
                 }      
+
+                .logo-comida{
+                    height: 40%;
+                    width: 40%;
+                    position: relative;
+                    top: 50%;
+                    left: 5%;
+                }
 
                 .opcoes h2{
                     font-size: 200%;
                     font-weight: bold;
                     position: relative;
-                    top: -15%;
+                    top: -28%;
                     left: 1%;
                     text-align: center;
                     color: rgb(80, 77, 77);
