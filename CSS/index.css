@@ -90,12 +90,14 @@ html, body{
             left: -40%;
         }
 
-        .chances{
+        .descricao{
 
             position: relative;
-            font-size: 150%;
-            top: -15%;
-            left: 91%;
+            font-size: 100%;
+            top: 5%;
+            left: 1%;
+            width: 98%;
+            height: 10%;
 
         }
 
