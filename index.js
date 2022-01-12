@@ -11,6 +11,11 @@ var confirmaTerceiro = 'true';
 
 
 
+
+//logica
+
+console.log("olá mundo");
+
 facil.addEventListener("click", function(){
 
     alert("Você escolheu a dificuldade facil, vamos lá");
@@ -29,7 +34,9 @@ facil.addEventListener("click", function(){
             
             alert("entrada invalida");
             
-            primeiro = prompt("O que devemos pegar primeiro?");
+            primeiroProduto = prompt("O que devemos pegar primeiro?");
+
+            primeiro = primeiroProduto.toLowerCase();
         }
     }
     
@@ -46,7 +53,9 @@ facil.addEventListener("click", function(){
             
             alert("entrada invalida");
             
-            segundo = prompt("o que faremos com a carne?");
+            segundoProduto = prompt("o que faremos com a carne?");
+
+            segundo = segundoProduto.toLowerCase();
         }
     }
 
@@ -54,36 +63,29 @@ facil.addEventListener("click", function(){
 
 
     while(true){
-        if (terceiro > 0 || terceiro < 60){
+
+        if (terceiro > 0 && terceiro < 60){
             
             break;
-
+            
         } else {
             
             alert("entrada invalida");
             
-            segundo = prompt("o que faremos com a carne?");
+            terceiro = prompt("Quanto tempo na churrasqueira?");
         }
     }
 
 
+    if(terceiro)
+    
 
-    if(!primeiro == "pao" || !primeiro == "pão"){
-        
-        confirmaPrimeiro = 'false';
 
-    }
+    
 
-    if(!segundo == "temperar" || !segundo == "tempero"){
-        confirmaSegundo = 'false';
+  
 
-    }
 
-    if(!terceiro == 15){
-
-        confirmaTerceiro = 'false';
-
-    }
 
 
    
