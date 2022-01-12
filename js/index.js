@@ -74,21 +74,7 @@ facil.addEventListener("click", function(){
             
             terceiro = prompt("Quanto tempo na churrasqueira?");
         }
-    }
-
-
-    if(terceiro)
-    
-
-
-    
-
-  
-
-
-
-
-   
+    }   
 
 
 })
