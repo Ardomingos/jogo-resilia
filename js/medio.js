@@ -10,7 +10,7 @@ medio.addEventListener("click", function(){
 
     alert("Você escolheu a dificuldade média, vamos lá");
 
-    alert("para que a sopa fique gostosa, vamos colocar tomates e logo apos a batata, então adicionaremos o frango e por fim deixaremos no fogo por 23 minutos para pegar o gosto ")
+    alert("para que a sopa fique gostosa vamos colocar tomates e logo após a batata, então adicionaremos o frango e por fim deixaremos no fogo por 23 minutos para pegar o gosto ")
 
     //criando variaveis
 
