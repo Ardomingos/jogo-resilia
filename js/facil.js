@@ -1,15 +1,7 @@
 // variaveis
 var facil = document.querySelector("#facil");
 
-var confirmaPrimeiro = 'true';
-
-var confirmaSegundo = 'true';
-
-var confirmaTerceiro = 'true';
-
-// funções
-
-
+var string = "Parabens, você acertou tudo"
 
 
 //logica
@@ -96,11 +88,14 @@ facil.addEventListener("click", function(){
         erros.push("Não é esse tempo")
     }
 
-    if(erros.length >= 0){
-        alert(erros)
-    } else (
-        alert("Parabens, você acertou")
-    )
+    if(erros.length != 0){
+        
+        alert(erros);
+
+    } else {
+
+        alert(string);
+    }
     
     console.log(erros.length)
 
