@@ -14,8 +14,6 @@ var confirmaTerceiro = 'true';
 
 //logica
 
-console.log("olá mundo");
-
 facil.addEventListener("click", function(){
 
     alert("Você escolheu a dificuldade facil, vamos lá");
@@ -74,7 +72,39 @@ facil.addEventListener("click", function(){
             
             terceiro = prompt("Quanto tempo na churrasqueira?");
         }
-    }   
+    }
+
+    var erros = [];
+
+    console.log(erros.length);
+
+    if(primeiro != "pão" && primeiro != "pao"){
+
+        erros.push("Primeiro passo incorreto");
+    
+    } 
 
 
-})
+    if(segundo != "temperar"){
+
+        erros.push("segundo passo incorreto");
+
+    }
+
+    if(terceiro != 15){
+        
+        erros.push("Não é esse tempo")
+    }
+
+    if(erros.length >= 0){
+        alert(erros)
+    } else (
+        alert("Parabens, você acertou")
+    )
+    
+    console.log(erros.length)
+
+});
+
+
+
