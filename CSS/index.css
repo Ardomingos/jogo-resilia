@@ -44,6 +44,7 @@ html, body{
             border: black solid;
             border-radius: 10px;   
             opacity: 0.8;
+            cursor: pointer;
             
         }
 
@@ -84,19 +85,21 @@ html, body{
         .dificuldade{
 
             font-size: 150%;
-            text-align: center;
             position: relative;
             top: 4%;
-            left: -40%;
+            left: 8%;
+            width: 20%;
+           
         }
+        
 
         .descricao{
 
             position: relative;
             font-size: 100%;
-            top: 5%;
-            left: 1%;
-            width: 98%;
+            top: 8%;
+            left: 8%;
+            width: 90%;
             height: 10%;
 
         }
@@ -140,22 +143,24 @@ html, body{
 
             .area-texto{
                 background-color: white;
+                padding-top: 5px;
                 width: 98%;
                 position: relative;
                 top: 18%;
                 height: 31%;
+                
             }
                 #area-facil{
                     border: solid rgb(255, 223, 125); 
-                    border-radius: 10px; 
+                    border-radius: 0 0 10px 10px; 
                 }
 
                 #area-medio{
                     border: solid rgb(147, 226, 170); 
-                    border-radius: 10px; 
+                    border-radius: 0 0 10px 10px; 
                 }
 
                 #area-dificil{ 
                     border: solid rgb(159, 189, 255); 
-                    border-radius: 10px; 
+                    border-radius: 0 0 10px 10px; 
                 }
